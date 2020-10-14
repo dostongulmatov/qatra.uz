@@ -1,13 +1,9 @@
 $headerFirstColor: #8BC6EC;
 $headerSecondColor: #9599E2;
-*{
-  padding: 0;
-  margin: 0;
-}
 
 .header {
   background: linear-gradient(135deg, $headerFirstColor, $headerSecondColor);
-  padding: 3%;
+  padding: 3% 3%;
   .brand-name{
     display: inline-block;
     vertical-align: middle;

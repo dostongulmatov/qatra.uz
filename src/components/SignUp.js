@@ -1,10 +1,9 @@
 import React from 'react'
-import Xayriyauz from './images/Xayriyauz(logo).png'
 
 const SignUp = () => {
   return (
     <div>
-      <img src={Xayriyauz} alt="..."/>
+      <h1>Sign Up page is on</h1>
     </div>
   )
 }

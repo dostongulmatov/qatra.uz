@@ -19,10 +19,6 @@ const Footer = () => {
           <li><a className="btn">Facebook</a></li>
           <li><a className="btn">Email</a></li>
         </ul>
-        <ul className="col-lg-2">
-          <li><h5>About us</h5></li>
-          <li><a className="btn">Qatra.uz is the fund raising company in Central Asia which help donators to  </a></li>
-        </ul>
       </div>
       <p className="copyright">Copyright 2020 Qatra.uz. All right reserved.</p>
     </div>

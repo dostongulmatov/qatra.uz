@@ -1,7 +1,8 @@
 import React from 'react'
 import { Button, Nav, Navbar, NavDropdown, Form, FormControl } from 'react-bootstrap';
-// import { BrowserRouter as Router, Link, Route } from "react-router-dom"
-// import SignUp from "./SignUp"
+import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom"
+
+import App from './App';
 
 
 const Nav1 = () => {
@@ -28,9 +29,8 @@ const Nav1 = () => {
             <Button variant="dark">Ru</Button>
             <Button disabled variant="dark">|</Button>
             <Button variant="dark" className="mr-sm-5" active>En</Button>
-
-            <Button variant="outline-primary" className="mr-sm-2">Sign In</Button>
-            <Button variant="outline-primary" className="mr-sm-5">Sign Up</Button>
+            <Link to={'/SignIn'} variant="outline-primary" className="btn btn-outline-primary mr-sm-2">Sign In</Link>
+            <Link to={'/SignUp'} variant="outline-primary" className="btn btn-outline-primary mr-sm-5">Sign Up</Link>
             <FormControl type="text" placeholder="Search" className="mr-sm-2" />
             <Button variant="outline-primary">Search</Button>
           </Form>
@@ -38,4 +38,7 @@ const Nav1 = () => {
       </Navbar>
   )
 }
+
 export default Nav1;
+
+
