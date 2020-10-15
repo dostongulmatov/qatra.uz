@@ -8,12 +8,10 @@ import App from './App';
 const Nav1 = () => {
   return (
       <Navbar bg="dark" variant="dark" expand="lg">
-        <Navbar.Brand  href="#home">Qatra.uz</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href='/'>Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
             <NavDropdown title="Kategoriyalar" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Masjidlar</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Nogironlar</NavDropdown.Item>
@@ -22,6 +20,7 @@ const Nav1 = () => {
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
             </NavDropdown>
+            <Nav.Link href="/About">About Us</Nav.Link>
           </Nav>
           <Form inline>
             <Button variant="dark">Uz</Button>

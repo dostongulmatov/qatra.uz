@@ -12,13 +12,7 @@ const Footer = () => {
           <li><a className="btn">Sign In</a></li>
           <li><a className="btn">Sign Up</a></li>
         </ul>
-        <ul className="col-lg-2">
-          <li><h5>Media</h5></li>
-          <li><a className="btn">Telegram</a></li>
-          <li><a className="btn">Instagram</a></li>
-          <li><a className="btn">Facebook</a></li>
-          <li><a className="btn">Email</a></li>
-        </ul>
+
       </div>
       <p className="copyright">Copyright 2020 Qatra.uz. All right reserved.</p>
     </div>

@@ -7,7 +7,7 @@ const SignUp = () => {
       </div>
       <form>
         <div className="row">
-          <a  className="register-btn col-lg-6  btn btn-outline-light">Register</a>
+          <a  className="register-btn col-lg-6  btn btn-outline-light" href="/SignUp">Register</a>
           <a className="login-btn col-lg-6 btn btn-outline-light active">Login</a>
         </div><br/><br/>
         <input className="form-info" type="email" placeholder="Email"/><br /><br />
