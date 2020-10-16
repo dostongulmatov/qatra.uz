@@ -2,8 +2,7 @@ import React from 'react'
 import Card1 from "./Card.js"
 import Media from "./media"
 const Home = () => {
-  re
-  turn (
+  return (
     <div>
       <div className="card-container">
         <Card1 />
