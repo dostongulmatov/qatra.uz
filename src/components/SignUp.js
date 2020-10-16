@@ -11,7 +11,7 @@ const SignUp = () => {
       <form>
         <div className="row">
           <a to={'/SignUp'} className="register-btn col-lg-6  btn btn-outline-light active">Register</a>
-          <a to={'/SignIn'} className="login-btn col-lg-6 btn btn-outline-light">Login</a>
+          <a to={'/SignIn'} className="login-btn col-lg-6 btn btn-outline-light" href="/SignIn">Login</a>
         </div><br/><br/>
 
         <input className="form-info" type="email" placeholder="Email"/><br /><br />

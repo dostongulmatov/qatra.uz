@@ -1,6 +1,11 @@
+body {
+  background: linear-gradient(135deg, #e4ddd7 30%, #fff);
+}
+
 .header {
   background: linear-gradient(135deg, #8BC6EC, #9599E2);
   padding: 3% 3%;
+  color: white;
 }
 
 .header .brand-name {
@@ -13,7 +18,18 @@
 }
 
 .card {
-  margin: 3%;
+  margin: 5%;
+}
+
+.card img {
+  height: 250px;
+  margin-bottom: 5%;
+}
+
+.card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .footer {
@@ -90,6 +106,17 @@
   left: 0;
   top: 200px;
   z-index: -1;
-  background: linear-gradient(135deg, #e4ddd7 30%, #fff);
+}
+
+.social-icons-container {
+  background: linear-gradient(135deg, #8BC6EC, #9599E2);
+  color: white;
+  padding: 5%;
+  text-align: center;
+}
+
+.social-icons-container .social-icon {
+  font-size: 50;
+  margin: 10px;
 }
 /*# sourceMappingURL=styles.css.map */

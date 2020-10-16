@@ -1,9 +1,12 @@
 $headerFirstColor: #8BC6EC;
 $headerSecondColor: #9599E2;
-
+body{
+  background: linear-gradient(135deg, #e4ddd7 30%, #fff);
+}
 .header {
   background: linear-gradient(135deg, $headerFirstColor, $headerSecondColor);
   padding: 3% 3%;
+  color: white;
   .brand-name{
     display: inline-block;
     vertical-align: middle;
@@ -12,8 +15,16 @@ $headerSecondColor: #9599E2;
     display: inline-block;
   }
 }
+
 .card{
-  margin: 3%;
+  margin: 5%;
+  img{
+    height: 250px;
+    margin-bottom: 5%;
+  }
+}
+.card-container{
+  display: flex;
 }
 .footer{
   padding: 3%;
@@ -81,11 +92,20 @@ $headerSecondColor: #9599E2;
     left: 0;
     top: 200px;
     z-index: -1;
-    background: linear-gradient(135deg, #e4ddd7 30%, #fff);
 
     // background: url(../../src/components/images/children.jpg);
     // background-position: left top;
     // background-origin: border-box;
     // background-size: cover; #e6dada #274046
+  }
+}
+.social-icons-container{
+  background: linear-gradient(135deg, $headerFirstColor, $headerSecondColor);
+  color: white;
+  padding: 5%;
+  text-align: center;
+  .social-icon{
+    font-size: 50;
+    margin: 10px;
   }
 }
