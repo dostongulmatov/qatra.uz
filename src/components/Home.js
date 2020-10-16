@@ -2,7 +2,8 @@ import React from 'react'
 import Card1 from "./Card.js"
 import Media from "./media"
 const Home = () => {
-  return (
+  re
+  turn (
     <div>
       <div className="card-container">
         <Card1 />
@@ -10,6 +11,19 @@ const Home = () => {
         <Card1 />
         <Card1 />
       </div>
+      <div className="card-container">
+        <Card1 />
+        <Card1 />
+        <Card1 />
+        <Card1 />
+      </div>
+      <div className="card-container">
+        <Card1 />
+        <Card1 />
+        <Card1 />
+        <Card1 />
+      </div>
+
       <Media />
     </div>
   )
