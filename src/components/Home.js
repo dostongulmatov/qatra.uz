@@ -11,19 +11,6 @@ const Home = () => {
         <Card1 />
         <Card1 />
       </div>
-      <div className="card-container">
-        <Card1 />
-        <Card1 />
-        <Card1 />
-        <Card1 />
-      </div>
-      <div className="card-container">
-        <Card1 />
-        <Card1 />
-        <Card1 />
-        <Card1 />
-      </div>
-
       <Media />
     </div>
   )
