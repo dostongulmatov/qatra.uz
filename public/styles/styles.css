@@ -57,7 +57,7 @@ body {
   padding: 5%;
 }
 
-.form .form-info {
+.form-info {
   width: 100%;
   border-bottom: white solid 3px;
   border-top: none;
@@ -66,27 +66,27 @@ body {
   background-color: transparent;
 }
 
-.form .form-info ::-webkit-input-placeholder {
+.form-info ::-webkit-input-placeholder {
   font-size: large;
   color: white;
 }
 
-.form .form-info :-ms-input-placeholder {
+.form-info :-ms-input-placeholder {
   font-size: large;
   color: white;
 }
 
-.form .form-info ::-ms-input-placeholder {
+.form-info ::-ms-input-placeholder {
   font-size: large;
   color: white;
 }
 
-.form .form-info ::placeholder {
+.form-info ::placeholder {
   font-size: large;
   color: white;
 }
 
-.form .submit-btn {
+.submit-btn {
   background-color: transparent;
   padding: 5px 25px;
   width: 70%;
@@ -95,11 +95,11 @@ body {
   border-radius: 5px;
 }
 
-.form .submit-btn:hover {
+.submit-btn:hover {
   background-color: white;
 }
 
-.form .container-for-img {
+.container-for-img {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -118,5 +118,68 @@ body {
 .social-icons-container .social-icon {
   font-size: 50;
   margin: 10px;
+}
+
+.need-help-form {
+  width: 50%;
+  margin: 3% auto;
+  text-align: left;
+  background: linear-gradient(135deg, #8BC6EC, #9599E2);
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.need-help-form .need-help-btn {
+  margin: 30px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+}
+
+.need-help-form .need-help-input {
+  border: white solid 3px;
+  padding: 10px;
+  margin: 10px;
+  width: 60%;
+  background-color: transparent;
+}
+
+.need-help-form label {
+  color: white;
+}
+
+.need-help-form .need-help-reason {
+  width: 100%;
+}
+
+.need-help-heading {
+  text-align: center;
+  margin: 3% auto;
+  color: #9599E2;
+}
+
+.about-page {
+  margin: 5%;
+}
+
+.about-page .about-containers {
+  width: 50%;
+  margin: 2%;
+}
+
+.about-page .right-about-containers {
+  margin-left: 50%;
+}
+
+.about-page .about-page-textarea {
+  width: 100%;
+}
+
+.about-page .about-page-btn {
+  width: 100%;
 }
 /*# sourceMappingURL=styles.css.map */
