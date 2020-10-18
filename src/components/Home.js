@@ -1,14 +1,20 @@
 import React from 'react'
-import Card1 from "./Card.js"
 import Media from "./media"
+import RecipeReviewCard from "./Card1"
 const Home = () => {
   return (
     <div>
       <div className="card-container">
-        <Card1 />
-        <Card1 />
-        <Card1 />
-        <Card1 />
+        <RecipeReviewCard />
+        <RecipeReviewCard />
+        <RecipeReviewCard />
+        <RecipeReviewCard />
+      </div>
+      <div className="card-container">
+        <RecipeReviewCard />
+        <RecipeReviewCard />
+        <RecipeReviewCard />
+        <RecipeReviewCard />
       </div>
       <Media />
     </div>
