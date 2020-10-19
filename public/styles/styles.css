@@ -182,4 +182,14 @@ body {
 .about-page .about-page-btn {
   width: 100%;
 }
+
+.more-info {
+  margin: 2%;
+}
+
+.more-info .more-info-textarea {
+  width: 50%;
+  -webkit-columns: 10;
+          columns: 10;
+}
 /*# sourceMappingURL=styles.css.map */

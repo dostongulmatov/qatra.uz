@@ -6,9 +6,15 @@ const NeedHelp = () => {
       <h5 className="need-help-heading">Do you really need help? If yes. Just fill the blanks below and get help you need from kind people.</h5>
       <div  className="need-help-form">
         <form>
-          <label>Type your name:</label><input className="need-help-input"  placeholder="Enter your name"/><br />
-          <label>Type your address:</label><input className="need-help-input"  placeholder="Enter your full address"/><br />
+          <label>Type your name:</label><input className="need-help-input"  name="name" placeholder="Enter your name"/><br />
+          <label>Type your address:</label><input className="need-help-input"  name="address" placeholder="Enter your full address"/><br />
           <label>Enter your phone number:</label><input className="need-help-input"  placeholder="Type your number"/><br />
+          <label>Enter an Avatar image</label><input type="file" /><br />
+          <label>Do you have card?</label>
+            <input type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked />
+            <label for="exampleRadios1">Yes</label>
+            <input type="radio" name="exampleRadios" id="exampleRadios2" value="option2" />
+            <label for="exampleRadios2">No</label><br />
           <label>Enter an Avatar image</label><input type="file" /><br />
           <label>What kind of person are you?</label>
           <select  className="need-help-input" id="character" name="character">
