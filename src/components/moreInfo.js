@@ -1,4 +1,4 @@
-import { Label } from '@material-ui/icons'
+// import { Label } from '@material-ui/icons'
 import React from 'react'
 
 const moreInfo = () => {

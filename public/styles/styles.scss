@@ -26,19 +26,7 @@ body{
 .card-container{
   display: flex;
 }
-.footer{
-  padding: 3%;
-  background-color: #3A3838;
-  color: white;
-  li {
-    list-style-type: none;
-    text-align: center;
-  }
-  .copyright{
-    text-align: center;
-    margin: auto;
-  }
-}
+
 .form{
   text-align: center;
   background: linear-gradient(135deg, $headerFirstColor, $headerSecondColor);
@@ -84,10 +72,24 @@ body{
   color: white;
   padding: 5%;
   text-align: center;
-  .social-icon{
-    font-size: 50;
-    margin: 10px;
+  .social-icons-link{
+    margin: 0 0.3%;
+    color: white !important;
+    border-radius: 50%;
+    background-color: white !important;
+    .social-icons{
+      padding: 20px;
+      font-size: 50;
+      margin: 20px;
+
+    }
+    border: white solid 1px;
   }
+}
+.social-icons-link:hover{
+  color: #0275d8 !important;
+  background-color: #0275d8 !important;
+  border: none;
 }
 .need-help-form{
   width: 50%;
@@ -147,3 +149,27 @@ body{
   }
 }
 
+.footer{
+  padding: 3%;
+  background-color: #3A3838;
+  color: white;
+  li {
+    list-style-type: none;
+    text-align: center;
+  }
+  .footer-btn{
+    color: white !important;
+  }
+  .about-us-p{
+    padding: 8% 0;
+    border: 1px solid #0275d8;
+    border-radius: 8px;
+  }
+  .about-us-p:hover{
+    background-color: #0275d8;
+  }
+  .copyright{
+    text-align: center;
+    margin: auto;
+  }
+}

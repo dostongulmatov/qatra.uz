@@ -34,7 +34,6 @@ const UserSchema = mongoose.Schema({
 const User = mongoose.model("User", UserSchema);
 
 // Rest api
-
 app.route("/api/user")
     .post(function (req, res) {
         bcrypt.hash(req.body.password, 5, function (err, hash) {

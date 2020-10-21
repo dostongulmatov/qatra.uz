@@ -1,3 +1,5 @@
+
+
 import React from 'react'
 import help from './images/help.png'
 import guide from './images/guide.png'
@@ -19,19 +21,19 @@ const About = () => {
           You can use our website or app for making donation at any time at any position to person who really deserve it.</h1>
         </div>
         <div className="col-lg-1 my-auto">
-          <img src={ right } width="50px" />
+          <img alt="..." src={ right } width="50px" />
         </div>
         <div className="col-lg-5">
-          <img src={ help }/>
+          <img alt="..." src={ help }/>
         </div>
       </div>
 
       <div className="row h-100">
         <div className="col-lg-5">
-          <img src={ guide }/>
+          <img alt="..." src={ guide }/>
         </div>
         <div className="col-lg-1 my-auto">
-          <img src={ left } width="50px" />
+          <img alt="..." src={ left } width="50px" />
         </div>
         <div className="col-lg-6 my-auto">
           <p className="what-we-do">How can you help us?</p>
@@ -47,19 +49,19 @@ const About = () => {
           if you need help just press need help button. </h1>
         </div>
         <div className="col-lg-1 my-auto">
-          <img src={ right } width="50px" />
+          <img alt="..." src={ right } width="50px" />
         </div>
         <div className="col-lg-5">
-          <img src={ question }/>
+          <img alt="..." src={ question }/>
         </div>
       </div>
 
       <div className="row h-100">
         <div className="col-lg-6">
-          <img src={ advice }/>
+          <img alt="..." src={ advice }/>
         </div>
         <div className="col-lg-1 my-auto">
-          <img src={ right } width="50px" />
+          <img alt="..." src={ right } width="50px" />
         </div>
         <div className="col-lg-5 my-auto">
           <p className="what-we-do">Why I need to use Qatra.uz</p>
@@ -73,7 +75,7 @@ const About = () => {
           Press this button(for fundings organisations)</button></h1>
         </div>
         <div className="col-lg-1 my-auto">
-          <img src={ right } width="50px" />
+          <img alt="..." src={ right } width="50px" />
         </div>
         <div className="col-5">
           <textarea className="about-page-textarea" rows="7" placeholder="Enter your thoughts and improvements can be added"></textarea>
@@ -85,33 +87,3 @@ const About = () => {
 }
 
 export default About
-
-      {/* <div className="" >
-        <div className="about-containers row">
-          <div className="col-6"> */}
-                    {/* </div>
-          <div className="col-6"> */}
-                    {/* </div>
-        </div>
-        <div className="about-containers right-about-containers">
-          <div> */}
-                  {/* </div>
-          <div> */}
-                    {/* </div>
-        </div>
-      <div className="row" >
-      <div>
-
-      </div>
-      <div>
-
-      </div> */}
-      {/* <div className="about-containers"> */}
-              {/* </div>
-        <div className="about-containers right-about-containers">
-          <div> */}
-                    {/* </div>
-          <div> */}
-                    {/* </div>
-        </div>
-      </div> */}

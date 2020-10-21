@@ -54,11 +54,11 @@ const Media = () => {
   return (
     <div className="social-icons-container">
       <h3>Follow us in Social-Media</h3>
-      <TubeIcon className="social-icons" />
-      <EmailIcon className="social-icons" />
-      <TeleIcon className="social-icons" />
-      <InstaIcon className="social-icons" />
-      <FaceIcon className="social-icons" />
+      <a href="/" className="social-icons-link"><TubeIcon className="social-icons" /></a>
+      <a href="/" className="social-icons-link"><EmailIcon className="social-icons" /></a>
+      <a href="/" className="social-icons-link"><TeleIcon className="social-icons" /></a>
+      <a href="/" className="social-icons-link"><InstaIcon className="social-icons" /></a>
+      <a href="/" className="social-icons-link"><FaceIcon className="social-icons" /></a>
     </div>
   )
 }
