@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function RecipeReviewCard() {
+export default function QatraCard(props) {
   const classes = useStyles();
 
   return (
@@ -36,7 +36,7 @@ export default function RecipeReviewCard() {
       <CardHeader
         avatar={
           <Avatar aria-label="recipe" className={classes.avatar}>
-            R
+            {props.avatar1}
           </Avatar>
         }
         action={
@@ -44,7 +44,7 @@ export default function RecipeReviewCard() {
             <MoreVertIcon />
           </IconButton>
         }
-        title="Doston Gulmatov"
+        title={props.name}
         subheader="October 17, 2020"
       />
       <CardMedia
@@ -54,7 +54,7 @@ export default function RecipeReviewCard() {
       />
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
-          Hi, I am student at Amity university, I really need money for paying for my contract payment.Thank you!!
+          {props.content}
         </Typography>
       </CardContent>
       <CardActions disableSpacing>

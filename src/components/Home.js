@@ -1,20 +1,22 @@
 import React from 'react'
 import Media from "./media"
-import RecipeReviewCard from "./Card1"
+import QatraCard from "./Card1"
+import CardsObj from '../CardsObjects.js'
+
+function CreateCard(CardObj) {
+  return (
+  <QatraCard
+    name={CardObj.name}
+    avatar1={CardObj.avatar1}
+    content={CardObj.content}
+    key={CardObj.id}
+  />)
+}
 const Home = () => {
   return (
     <div>
       <div className="card-container">
-        <RecipeReviewCard />
-        <RecipeReviewCard />
-        <RecipeReviewCard />
-        <RecipeReviewCard />
-      </div>
-      <div className="card-container">
-        <RecipeReviewCard />
-        <RecipeReviewCard />
-        <RecipeReviewCard />
-        <RecipeReviewCard />
+          {CardsObj.map(CreateCard)}
       </div>
       <Media />
     </div>
