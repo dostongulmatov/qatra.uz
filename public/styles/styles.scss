@@ -23,8 +23,18 @@ body{
     margin-bottom: 5%;
   }
 }
-.card-container{
+
+.card-container {
   display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.card-container > div {
+  margin: 1%;
+  max-width: 340px;
+  background-color: #f1f1f1;
+  text-align: center;
 }
 
 .form{
@@ -173,3 +183,19 @@ body{
     margin: auto;
   }
 }
+
+// @media only screen and (max-width: 600px) {
+//   .card-container{
+//     margin: auto;
+//     display: block;
+//     width: 400px;
+//   }
+// }
+// @media screen and (min-width: 600px) {
+//   .card-container{
+//     margin: auto;
+//     display: inline-block;
+//     width: 330px;
+//     display: flex;
+//   }
+// }
