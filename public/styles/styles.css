@@ -4,7 +4,7 @@ body {
 
 .header {
   background: linear-gradient(135deg, #8BC6EC, #9599E2);
-  padding: 3% 3%;
+  padding: 3% 8%;
   color: white;
 }
 
@@ -15,6 +15,10 @@ body {
 
 .header .quote-carousel {
   display: inline-block;
+}
+
+.qatra-nav {
+  padding: 1.5% 7%;
 }
 
 .card {
@@ -43,7 +47,6 @@ body {
   margin: 1%;
   max-width: 340px;
   background-color: #f1f1f1;
-  text-align: center;
 }
 
 .form {

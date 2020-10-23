@@ -5,7 +5,7 @@ import { Button, Nav, Navbar, NavDropdown, Form, FormControl } from 'react-boots
 
 const Nav1 = () => {
   return (
-      <Navbar bg="dark" variant="dark" expand="lg">
+      <Navbar className="qatra-nav" bg="dark" variant="dark" expand="lg">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
@@ -21,11 +21,11 @@ const Nav1 = () => {
             <Nav.Link href="/About">About Us</Nav.Link>
           </Nav>
           <Form inline>
-            <Button variant="dark">Uz</Button>
+            {/* <Button variant="dark">Uz</Button>
             <Button disabled variant="dark">|</Button>
             <Button variant="dark">Ru</Button>
             <Button disabled variant="dark">|</Button>
-            <Button variant="dark" className="mr-sm-5" active>En</Button>
+            <Button variant="dark" className="mr-sm-5" active>En</Button> */}
             <a href={'/SignIn'} variant="outline-primary" className="btn btn-outline-primary mr-sm-2">Sign In</a>
             <a href={'/SignUp'} variant="outline-primary" className="btn btn-outline-primary mr-sm-5">Sign Up</a>
             <FormControl type="text" placeholder="Search" className="mr-sm-2" />

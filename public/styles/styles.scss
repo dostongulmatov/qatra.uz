@@ -5,7 +5,7 @@ body{
 }
 .header {
   background: linear-gradient(135deg, $headerFirstColor, $headerSecondColor);
-  padding: 3% 3%;
+  padding: 3% 8%;
   color: white;
   .brand-name{
     display: inline-block;
@@ -16,6 +16,9 @@ body{
   }
 }
 
+.qatra-nav{
+  padding: 1.5% 7%;
+}
 .card{
   margin: 5%;
   img{
@@ -34,7 +37,6 @@ body{
   margin: 1%;
   max-width: 340px;
   background-color: #f1f1f1;
-  text-align: center;
 }
 
 .form{
@@ -119,9 +121,6 @@ body{
     padding: 10px;
     margin: 10px;
     width: 60%;
-    // border-top: none;
-    // border-left: none;
-    // border-right: none;
     background-color: transparent;
   }
   label{
@@ -184,18 +183,3 @@ body{
   }
 }
 
-// @media only screen and (max-width: 600px) {
-//   .card-container{
-//     margin: auto;
-//     display: block;
-//     width: 400px;
-//   }
-// }
-// @media screen and (min-width: 600px) {
-//   .card-container{
-//     margin: auto;
-//     display: inline-block;
-//     width: 330px;
-//     display: flex;
-//   }
-// }
