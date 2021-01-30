@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="footer">
       <div className="row my-auto">
         <ul className="col-lg-2">
-          <li><h5>Qatra 💰</h5></li>
+          <li><h5>Qatra <span>💰</span></h5></li>
           <li><a href="/" className="footer-btn btn btn-outline-primary mb-2 w-100">Home</a></li>
           <li><a href="/NeedHelp" className="footer-btn btn btn-outline-primary mb-2 w-100">Need Help</a></li>
           <li><a href="/SignIn" className="footer-btn btn btn-outline-primary mb-2 w-100">Sign In</a></li>
@@ -15,7 +15,7 @@ const Footer = () => {
         </ul>
 
         <ul className="col-lg-2">
-          <li><h5>Donate to &#10549;</h5></li>
+          <li><h5>Donate to <span>&#10549;</span></h5></li>
           <li><a href="/" className="footer-btn btn btn-outline-primary mb-2 w-100">Masjids</a></li>
           <li><a href="/" className="footer-btn btn btn-outline-primary mb-2 w-100">Poor People</a></li>
           <li><a href="/" className="footer-btn btn btn-outline-primary mb-2 w-100">Disabled People</a></li>
@@ -24,7 +24,7 @@ const Footer = () => {
 
         <ul className="col-lg-3">
           <li>
-            <h5>About us ℹ️</h5>
+            <h5>About us <span>ℹ️</span></h5>
           </li>
           <li>
             <p className="about-us-p pl-2 pr-2 w-100">Qatra.uz is small organisation. We want to help rich people to invest their money for the hereafter. 
@@ -35,7 +35,7 @@ const Footer = () => {
 
         <ul className="col-lg-2">
           <li>
-            <h5>Contact us &#128222;</h5>
+            <h5>Contact us <span>&#128222;</span></h5>
           </li>
           <li>
             <a className="btn mb-2 btn-outline-primary w-100">

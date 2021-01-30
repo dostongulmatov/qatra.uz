@@ -5,12 +5,17 @@ const bcrypt = require("bcrypt");
 
 const app = express();
 
+
+app.get("/", function(req, res){
+    res.sendFile("../" + __dirname + "/public/index.html")
+})
+
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // PORT Listen
 let port = process.env.PORT;
 if (port == null || port == "") {
-    port = 4000;
+    port = 3000;
 }
 
 app.listen(port, function () {

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
@@ -26,6 +26,13 @@ const useStyles = makeStyles((theme) => ({
 
 export default function QatraCard(props) {
   const classes = useStyles();
+
+
+  // const [count, setCount] = useState(0)
+  // function handleClick(){
+  //   setCount( count++ )
+  //   console.log(setCount)
+  // }
 
   return (
     <Card className={classes.root}>
@@ -55,7 +62,7 @@ export default function QatraCard(props) {
       </CardContent>
       <CardActions disableSpacing>
         <IconButton aria-label="add to favorites">
-          <FavoriteIcon />
+          <FavoriteIcon/>
         </IconButton>
         <IconButton aria-label="share">
           <ShareIcon />

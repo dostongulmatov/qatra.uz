@@ -3,27 +3,6 @@ import axios from 'axios'
 import { Form, withFormik, Field } from "formik"
 import * as Yup from 'yup';
 
-// export default class UserList extends React.Component {
-//   state = {
-//     persons: [],
-//   };
-
-//   componentDidMount() {
-//     axios.get('https://jsonplaceholder.typcode.com/users').then(res => {
-//       console.log(res);
-//       this.setState({ persons: res.data })
-//     });
-//   }
-
-//   render() {
-//     return (
-//       <ul>
-//         { this.state.persons.map(person => <li>{person.name}</li>)}
-//       </ul>
-//     )
-//   }
-// }
-
 const SignUp = (
   {
     values,
@@ -61,7 +40,7 @@ const SignUp = (
         }),
         handleSubmit(values) {
         axios.get('http://localhost:4000/api/user').then(res => {
-          console.log(res);
+          // console.log(values);
         });
         }
       })(SignUp)

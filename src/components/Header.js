@@ -16,7 +16,7 @@ const header = () => {
 
         <div className=" col-lg-4 row">
           <p className="need-help-prg col-lg-12 text-center">Do you really need help from people? <br />If yes.</p>
-          <a className="need-help-btn col-lg-6 col-sm-6 btn btn-outline-danger mx-auto" href="NeedHelp">Click this button</a>
+          <a className="need-help-btn col-lg-6 col-sm-6 btn btn-outline-danger mx-auto" href="/NeedHelpApp">Click this button</a>
         </div>
 
       </div>

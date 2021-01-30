@@ -9,7 +9,7 @@ import Footer from "./Footer.js"
 import About from "./About.js"
 import moreInfo from './moreInfo.js'
 import PaymentPage from './PaymentPage.js'
-import NeedHelp from './NeedHelp.js'
+import NeedHelpApp from './NeedHelp.js'
 
 const App = () => {
   return (
@@ -24,7 +24,7 @@ const App = () => {
           <Route path='/SignUp' component={SignUp} />
           <Route path='/moreInfo' component={moreInfo} />
           <Route path='/PaymentPage' component={PaymentPage} />
-          <Route path='/NeedHelp' component={NeedHelp} />
+          <Route path='/NeedHelpApp' component={NeedHelpApp} />
         </Switch>
         <Footer />
       </div>    
